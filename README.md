@@ -1,4 +1,4 @@
-# Baghewala Field Well-to-Surface Digital Twin — SIH Prototype
+# Baghewala Field Well-to-Surface Digital Twin - SIH Prototype
 
 **SIH 2026 | Problem Statement 26120**  
 *Digital Twin for Well-to-Surface Optimization of Cyclic Steam Stimulation (CSS) and Sucker Rod Pump (SRP) Operations for Heavy Oil Wells of Baghewala Field.*
