@@ -1,0 +1,146 @@
+{
+  "n_train": 1040,
+  "n_test": 260,
+  "n_classes": 5,
+  "class_names": [
+    "normal",
+    "rod_floating",
+    "gas_interference",
+    "pump_off",
+    "other_anomaly"
+  ],
+  "final_test_accuracy": 0.9846,
+  "final_test_macro_f1": 0.9846,
+  "confusion_matrix": [
+    [
+      48,
+      0,
+      0,
+      0,
+      4
+    ],
+    [
+      0,
+      52,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      52,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      52,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      52
+    ]
+  ],
+  "confusion_matrix_note": "rows=true class, cols=predicted class, order matches class_names",
+  "epoch_history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.0037,
+      "test_acc": 0.8692
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.3438,
+      "test_acc": 0.9538
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.1544,
+      "test_acc": 0.9615
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.106,
+      "test_acc": 0.9885
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.0866,
+      "test_acc": 0.9923
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.0531,
+      "test_acc": 0.9923
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.0702,
+      "test_acc": 0.9923
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.048,
+      "test_acc": 0.9769
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.0272,
+      "test_acc": 0.9923
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.0319,
+      "test_acc": 0.9846
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.0119,
+      "test_acc": 0.9962
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.0196,
+      "test_acc": 0.9923
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.0101,
+      "test_acc": 0.9885
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.0187,
+      "test_acc": 0.9885
+    },
+    {
+      "epoch": 15,
+      "train_loss": 0.0081,
+      "test_acc": 0.9923
+    },
+    {
+      "epoch": 16,
+      "train_loss": 0.011,
+      "test_acc": 0.9962
+    },
+    {
+      "epoch": 17,
+      "train_loss": 0.0154,
+      "test_acc": 0.9962
+    },
+    {
+      "epoch": 18,
+      "train_loss": 0.0123,
+      "test_acc": 0.9846
+    }
+  ],
+  "data_is_synthetic": true,
+  "note": "Trained entirely on physics-simulated synthetic dynamometer cards (see physics/rod_dynamics.py). Real/public card datasets should be used to validate and reduce sim-to-real gap before field deployment."
+}

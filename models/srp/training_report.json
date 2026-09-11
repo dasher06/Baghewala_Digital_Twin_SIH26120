@@ -1,0 +1,25 @@
+{
+  "n_train_rows": 3200,
+  "n_test_rows": 800,
+  "outputs": {
+    "pprl": {
+      "final_MAE": 98.9536,
+      "final_R2": 0.9968,
+      "physics_only_baseline_MAE": 348.9519,
+      "mean_relative_deviation_from_physics": 0.0237
+    },
+    "efficiency": {
+      "final_MAE": 0.0127,
+      "final_R2": 0.9942,
+      "physics_only_baseline_MAE": 0.0732,
+      "mean_relative_deviation_from_physics": 0.1756
+    },
+    "energy": {
+      "final_MAE": 0.0273,
+      "final_R2": 0.9996,
+      "physics_only_baseline_MAE": 0.1181,
+      "mean_relative_deviation_from_physics": 0.0241
+    }
+  },
+  "data_is_synthetic": true
+}

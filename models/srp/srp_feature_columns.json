@@ -1,0 +1,14 @@
+[
+  "viscosity_cP",
+  "fluid_level_m",
+  "spm",
+  "stroke_length_in",
+  "vfd_frequency_hz",
+  "rod_string_diameter_in",
+  "rod_string_length_ft",
+  "pump_depth_ft",
+  "tubing_size_in",
+  "fluid_specific_gravity",
+  "pprl_physics_lbs",
+  "efficiency_physics_frac"
+]

@@ -1,0 +1,6 @@
+file,description,role
+wells.csv,52 well master records; 33 operational; synthetic schematic positions,field master
+operating_data.csv,current operating point per operational well,Models 1-5 input layer
+css_history.csv,daily CSS/thermal history per operational well,Model 1 / validation
+production_history.csv,daily production history per operational well,Model 2 / validation
+srp_history.csv,daily SRP settings per operational well,Model 3 / validation

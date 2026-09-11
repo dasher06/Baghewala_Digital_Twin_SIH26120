@@ -1,0 +1,27 @@
+{
+  "n_train_rows": 3120,
+  "n_test_rows": 880,
+  "n_train_wells": 68,
+  "n_test_wells": 20,
+  "raw_xgb_MAE_bopd": 0.886,
+  "blended_final_MAE_bopd": 0.908,
+  "blended_final_R2": 0.9942,
+  "decline_consistency_MAE_bopd": 1.975,
+  "lambda_decline_blend": 0.08,
+  "feature_importances": {
+    "temperature_C": 0.4433000087738037,
+    "viscosity_cP": 0.392300009727478,
+    "arps_expected_bopd": 0.10989999771118164,
+    "lagged_bopd": 0.04479999840259552,
+    "water_cut_frac": 0.002400000113993883,
+    "cycle_num": 0.001500000013038516,
+    "spm": 0.001500000013038516,
+    "day_count_in_cycle": 0.0012000000569969416,
+    "stroke_length_in": 0.0010999999940395355,
+    "vfd_frequency_hz": 0.0010000000474974513,
+    "cum_production_this_cycle_bbl": 0.0008999999845400453
+  },
+  "top_driver": "temperature_C",
+  "data_is_synthetic": true,
+  "note": "Final prediction = (1-lambda)*XGBoost_pred + lambda*Arps_fitted_curve, a small soft nudge toward decline-consistent shape (see module docstring)."
+}

@@ -1,0 +1,15 @@
+[
+  "steam_volume_bbl",
+  "injection_pressure_psi",
+  "steam_quality_frac",
+  "soak_duration_days",
+  "time_since_injection_end_days",
+  "prior_cycle_count",
+  "thermal_conductivity_W_mK",
+  "porosity_frac",
+  "formation_thickness_m",
+  "baseline_reservoir_temp_C",
+  "crude_api_gravity",
+  "cum_production_bbl",
+  "physics_temp_C"
+]

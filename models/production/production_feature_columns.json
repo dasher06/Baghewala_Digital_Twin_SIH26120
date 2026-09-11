@@ -1,0 +1,13 @@
+[
+  "temperature_C",
+  "viscosity_cP",
+  "day_count_in_cycle",
+  "cycle_num",
+  "spm",
+  "stroke_length_in",
+  "vfd_frequency_hz",
+  "water_cut_frac",
+  "cum_production_this_cycle_bbl",
+  "lagged_bopd",
+  "arps_expected_bopd"
+]

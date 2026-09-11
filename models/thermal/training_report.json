@@ -1,0 +1,14 @@
+{
+  "n_train_rows": 3400,
+  "n_test_rows": 1000,
+  "n_train_wells": 65,
+  "n_test_wells": 19,
+  "residual_model_MAE_C": 1.7899,
+  "residual_model_R2": -0.0526,
+  "final_temperature_MAE_C": 1.7899,
+  "final_temperature_R2": 0.9969,
+  "physics_only_baseline_MAE_C": 1.9276,
+  "physics_residual_violation_rate": 0.0884,
+  "note": "physics_residual_violation_rate is the diagnostic used in place of a differentiable L_physics_residual term (see module docstring). It is enforced away at inference time via monotonic-decay clipping.",
+  "data_is_synthetic": true
+}
