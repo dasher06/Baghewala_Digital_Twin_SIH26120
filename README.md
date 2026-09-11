@@ -7,7 +7,7 @@
 
 This prototype contains the complete demonstration flow:
 
-1. **Models 1–4** - thermal, production, SRP performance and failure-risk CNN.
+1. **Models 1-4** - thermal, production, SRP performance and failure-risk CNN.
 2. **Model 5** - constrained joint CSS + SRP optimizer.
 3. **Multi-well field layer** - 52 drilled wells, 33 operational wells and 19 non-producing wells (synthetic prototype records).
 4. **Field overview** - schematic field map and operational-well status table.
