@@ -7,14 +7,14 @@
 
 This prototype contains the complete demonstration flow:
 
-1. **Models 1–4** — thermal, production, SRP performance and failure-risk CNN.
-2. **Model 5** — constrained joint CSS + SRP optimizer.
-3. **Multi-well field layer** — 52 drilled wells, 33 operational wells and 19 non-producing wells (synthetic prototype records).
-4. **Field overview** — schematic field map and operational-well status table.
-5. **Well selector** — choose any operational well and run the same Digital Twin engine using that well's own completion/operating parameters.
-6. **3D well visualization** — interactive schematic wellbore showing surface/SRP, rod string, pump and reservoir; model outputs are displayed beside it.
-7. **What-if simulator** — test CSS + SRP changes for the selected well.
-8. **Joint optimization** — Model 5 searches feasible settings for the selected well.
+1. **Models 1–4** - thermal, production, SRP performance and failure-risk CNN.
+2. **Model 5** - constrained joint CSS + SRP optimizer.
+3. **Multi-well field layer** - 52 drilled wells, 33 operational wells and 19 non-producing wells (synthetic prototype records).
+4. **Field overview** - schematic field map and operational-well status table.
+5. **Well selector** - choose any operational well and run the same Digital Twin engine using that well's own completion/operating parameters.
+6. **3D well visualization** - interactive schematic wellbore showing surface/SRP, rod string, pump and reservoir; model outputs are displayed beside it.
+7. **What-if simulator** - test CSS + SRP changes for the selected well.
+8. **Joint optimization** - Model 5 searches feasible settings for the selected well.
 
 > **Data warning:** everything under `data/field/` in this package is synthetic. The 52 well count, 33 operational status distribution, field positions and operating values are prototype placeholders. They are NOT actual Baghewala field measurements or well coordinates.
 
